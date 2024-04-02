@@ -1,0 +1,26 @@
+[flake8]
+max-line-length = 160
+ignore =
+  # see https://pycodestyle.pycqa.org/en/latest/intro.html#error-codes
+  # whitespace after ‘(’
+  E201,
+  # whitespace before ‘)’
+  E202,
+  # whitespace before ‘,’, ‘;’, or ‘:’
+  E203,
+  # 以上 E201,202,203 は black に任せる
+  # multiple spaces after ‘,’
+  E241,
+#, E266, E501, W503, F403, F401
+# max-complexity = 18
+# select = B,C,E,F,W,T4,B9
+exclude =
+  .git,
+  .github,
+  .npm,
+  node_modules,
+  __pycache__,
+  docs/source/conf.py,
+  old,
+  build,
+  dist

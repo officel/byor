@@ -1,0 +1,8 @@
+[default.extend-identifiers]
+chage = "chage"
+HashiCorp = "HashiCorp"
+Braket = "Braket"
+
+[default.extend-words]
+# shell set -ue
+ue = "ue"
