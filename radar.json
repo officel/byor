@@ -7,6 +7,27 @@
         "description": "OIDC"
     },
     {
+        "name": "ansible",
+        "ring": "adopt",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Ansible is an open source IT automation engine that automates provisioning,configuration management, application deployment, orchestration, and many other IT processes"
+    },
+    {
+        "name": "aqua",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "TRUE",
+        "description": "Declarative CLI Version Manager. Unify tool versions in teams, projects, and CI. Easy, painless, and secure."
+    },
+    {
+        "name": "homebrew",
+        "ring": "trial",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "The Missing Package Manager for macOS (or Linux)"
+    },
+    {
         "name": "terraform",
         "ring": "adopt",
         "quadrant": "tools",
