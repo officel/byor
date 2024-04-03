@@ -21,6 +21,20 @@
         "description": "Amazon Web Services"
     },
     {
+        "name": "Azure",
+        "ring": "assess",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "Microsoft Azure"
+    },
+    {
+        "name": "GCP",
+        "ring": "assess",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "Google Cloud Platform"
+    },
+    {
         "name": "HCL",
         "ring": "adopt",
         "quadrant": "languages & frameworks",
