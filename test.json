@@ -21,10 +21,10 @@
     "description": "Apache Kylin is an open source analytics solution ..."
   },
   {
-    "name": "JSF",
+    "name": "日本語",
     "ring": "hold",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "We continue to see teams run into trouble using JSF ..."
+    "description": "日本語で処理されるかのテスト"
   }
 ]
