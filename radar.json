@@ -18,7 +18,7 @@
         "ring": "assess",
         "quadrant": "tools",
         "isNew": "TRUE",
-        "description": "Declarative CLI Version Manager. Unify tool versions in teams, projects, and CI. Easy, painless, and secure."
+        "description": "[note](https://github.com/officel/byor/blob/main/radar/tools/aqua.md) <br>Declarative CLI Version Manager. Unify tool versions in teams, projects, and CI. Easy, painless, and secure."
     },
     {
         "name": "homebrew",
