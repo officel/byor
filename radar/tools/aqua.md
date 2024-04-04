@@ -4,8 +4,10 @@ byor:
     "ring": "assess"
     "quadrant": "tools"
     "isNew": "TRUE"
-    "description": "[note](https://github.com/officel/byor/blob/main/radar/tools/aqua.md) <br>\
-    Declarative CLI Version Manager. Unify tool versions in teams, projects, and CI. Easy, painless, and secure."
+    "description": "\
+    Declarative CLI Version Manager. Unify tool versions in teams, projects, and CI. Easy, painless, and secure.\
+    <br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/aqua.md'>note</a>\
+    "
 ---
 
 # aqua
