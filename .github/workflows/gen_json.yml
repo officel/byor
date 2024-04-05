@@ -17,9 +17,11 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python gen_json.py
 
-      - name: Commit test.json if it has changed
+      - name: Commit if it has changed
+        env:
+          REF: ${{ github.head_ref }}
         run: |
           git config --global user.name "$(git log -n 1 --pretty=format:%an)"
           git config --global user.email "$(git log -n 1 --pretty=format:%ae)"
-          git add .
-          git diff --staged --quiet || (git commit -m 'fix: run gen_json.py' && git push)
+          git add Office_L.json
+          git diff --staged --quiet || (git commit -m 'fix: run gen_json.py' && git push origin "HEAD:refs/heads/${REF}")
