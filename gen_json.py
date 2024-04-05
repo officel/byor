@@ -38,7 +38,7 @@ def extract_frontmatter(files):
 
 # JSONとして出力
 def output_json(frontmatter_data):
-    with open("radar.json", "w", encoding="utf-8") as json_file:
+    with open("Office_L.json", "w", encoding="utf-8") as json_file:
         json.dump(frontmatter_data, json_file, ensure_ascii=False, indent=4)
         json_file.write("\n")
 
