@@ -14,6 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -22,9 +24,9 @@ jobs:
 
       - name: Commit if it has changed
         env:
-          REF: ${{ github.head_ref }}
+          ref: ${{ github.head_ref }}
         run: |
           git config --global user.name "$(git log -n 1 --pretty=format:%an)"
           git config --global user.email "$(git log -n 1 --pretty=format:%ae)"
           git add Office_L.json
-          git diff --staged --quiet || (git commit -m 'fix: run gen_json.py' && git push origin "HEAD:refs/heads/${REF}")
+          git diff --staged --quiet || (git commit -m 'fix: run gen_json.py' && git push origin "HEAD:refs/heads/${ref}")
