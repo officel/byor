@@ -7,25 +7,11 @@
         "description": "OIDC"
     },
     {
-        "name": "ansible",
-        "ring": "adopt",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "Ansible is an open source IT automation engine that automates provisioning,configuration management, application deployment, orchestration, and many other IT processes"
-    },
-    {
         "name": "aqua",
         "ring": "assess",
         "quadrant": "tools",
         "isNew": "TRUE",
         "description": "Declarative CLI Version Manager. Unify tool versions in teams, projects, and CI. Easy, painless, and secure.<br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/aqua.md'>note</a>"
-    },
-    {
-        "name": "homebrew",
-        "ring": "trial",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "The Missing Package Manager for macOS (or Linux)"
     },
     {
         "name": "terraform",
@@ -35,11 +21,18 @@
         "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure.It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members,treated as code, edited, reviewed, and versioned."
     },
     {
-        "name": "AWS",
+        "name": "ansible",
         "ring": "adopt",
-        "quadrant": "platforms",
+        "quadrant": "tools",
         "isNew": "FALSE",
-        "description": "Amazon Web Services"
+        "description": "Ansible is an open source IT automation engine that automates provisioning,configuration management, application deployment, orchestration, and many other IT processes"
+    },
+    {
+        "name": "homebrew",
+        "ring": "trial",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "The Missing Package Manager for macOS (or Linux)"
     },
     {
         "name": "Azure",
@@ -54,6 +47,13 @@
         "quadrant": "platforms",
         "isNew": "FALSE",
         "description": "Google Cloud Platform"
+    },
+    {
+        "name": "AWS",
+        "ring": "adopt",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "Amazon Web Services"
     },
     {
         "name": "HCL",

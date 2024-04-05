@@ -21,4 +21,5 @@ byor:
 - homebrew からの乗り換え中
 - bash alias の `a` が空いてたので割当
 - `alias agi='aqua g -i -o $AQUA_GLOBAL_CONFIG'` でいつでもグローバルにインストール
+- 2024-04-05 [aqua g コマンドに -g option が追加された](https://zenn.dev/shunsuke_suzuki/scraps/756e2e35694449#comment-48d165a672ddc3)
 - `aqua up` でアップデート
