@@ -1,0 +1,25 @@
+name: Run gen_json.py
+
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+
+jobs:
+  run-gen_json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: python gen_json.py
+
+      - name: Commit test.json if it has changed
+        run: |
+          git config --global user.name "$(git log -n 1 --pretty=format:%an)"
+          git config --global user.email "$(git log -n 1 --pretty=format:%ae)"
+          git add .
+          git diff --staged --quiet || (git commit -m 'fix: run gen_json.py' && git push)

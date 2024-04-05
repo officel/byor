@@ -14,13 +14,6 @@
         "description": "Ansible is an open source IT automation engine that automates provisioning,configuration management, application deployment, orchestration, and many other IT processes"
     },
     {
-        "name": "aqua",
-        "ring": "assess",
-        "quadrant": "tools",
-        "isNew": "TRUE",
-        "description": "Declarative CLI Version Manager. Unify tool versions in teams, projects, and CI. Easy, painless, and secure.<br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/aqua.md'>note</a>"
-    },
-    {
         "name": "homebrew",
         "ring": "trial",
         "quadrant": "tools",
