@@ -7,6 +7,20 @@
         "description": "OIDC"
     },
     {
+        "name": "aqua",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "TRUE",
+        "description": "Declarative CLI Version Manager. Unify tool versions in teams, projects, and CI. Easy, painless, and secure.<br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/aqua.md'>note</a>"
+    },
+    {
+        "name": "terraform",
+        "ring": "adopt",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure.It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members,treated as code, edited, reviewed, and versioned."
+    },
+    {
         "name": "ansible",
         "ring": "adopt",
         "quadrant": "tools",
@@ -21,20 +35,6 @@
         "description": "The Missing Package Manager for macOS (or Linux)"
     },
     {
-        "name": "terraform",
-        "ring": "adopt",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure.It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members,treated as code, edited, reviewed, and versioned."
-    },
-    {
-        "name": "AWS",
-        "ring": "adopt",
-        "quadrant": "platforms",
-        "isNew": "FALSE",
-        "description": "Amazon Web Services"
-    },
-    {
         "name": "Azure",
         "ring": "assess",
         "quadrant": "platforms",
@@ -47,6 +47,13 @@
         "quadrant": "platforms",
         "isNew": "FALSE",
         "description": "Google Cloud Platform"
+    },
+    {
+        "name": "AWS",
+        "ring": "adopt",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "Amazon Web Services"
     },
     {
         "name": "HCL",
