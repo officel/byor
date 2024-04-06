@@ -39,7 +39,8 @@ def extract_frontmatter(files):
 # JSONとして出力
 def output_json(frontmatter_data):
     with open("Office_L.json", "w", encoding="utf-8") as json_file:
-        json.dump(frontmatter_data, json_file, ensure_ascii=False, indent=4)
+        frontmatter_data_sorted = sorted(frontmatter_data, key=lambda x: x["name"])
+        json.dump(frontmatter_data_sorted, json_file, ensure_ascii=False, indent=4)
         json_file.write("\n")
 
 
