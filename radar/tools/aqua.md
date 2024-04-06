@@ -5,7 +5,8 @@ byor:
     "quadrant": "tools"
     "isNew": "TRUE"
     "description": "\
-    Declarative CLI Version Manager. Unify tool versions in teams, projects, and CI. Easy, painless, and secure.\
+    CLI Version Manager. <br />\
+    ローカルディレクトリ毎に使用するツールのバージョンをコントロールできる。\
     <br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/aqua.md'>note</a>\
     "
 ---
