@@ -1,65 +1,65 @@
 [
     {
-        "name": "AWS",
+        "name": "Amazon Web Services(AWS)",
         "ring": "adopt",
         "quadrant": "platforms",
         "isNew": "FALSE",
-        "description": "Amazon Web Services"
+        "description": "とりあえず AWS 使っておけ。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/platforms/aws.md'>note</a>"
     },
     {
         "name": "Azure",
         "ring": "assess",
         "quadrant": "platforms",
         "isNew": "FALSE",
-        "description": "Microsoft Azure"
+        "description": "MicroSoft のクラウド。MS 系サービスとの相性がよい。 <br />see: <a href='https://github.com/officel/byor/blob/main/radar/platforms/azure.md'>note</a>"
     },
     {
-        "name": "GCP",
+        "name": "Google Cloud(旧GCP)",
         "ring": "assess",
         "quadrant": "platforms",
         "isNew": "FALSE",
-        "description": "Google Cloud Platform"
-    },
-    {
-        "name": "HCL",
-        "ring": "adopt",
-        "quadrant": "languages & frameworks",
-        "isNew": "FALSE",
-        "description": "HCL is the HashiCorp configuration language."
+        "description": "Google のクラウド。 2022 年に GCP(Google Cloud Platform) が Google Cloud に吸収？された。現在は Google Cloud に統一中。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/platforms/google_cloud.md'>note</a>"
     },
     {
         "name": "OIDC for GitHub Actions",
         "ring": "adopt",
         "quadrant": "techniques",
         "isNew": "FALSE",
-        "description": "OIDC"
+        "description": "GitHub Actions ではセキュリティ強化のために OIDC を使用しろという教え。まったくそのとおり。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/techniques/oidc4github.md'>note</a>"
     },
     {
         "name": "ansible",
         "ring": "adopt",
         "quadrant": "tools",
         "isNew": "FALSE",
-        "description": "Ansible is an open source IT automation engine that automates provisioning,configuration management, application deployment, orchestration, and many other IT processes"
+        "description": "自動化ツール。管理対象のノードであれこれできる。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/ansible.md'>note</a>"
     },
     {
         "name": "aqua",
         "ring": "assess",
         "quadrant": "tools",
         "isNew": "TRUE",
-        "description": "Declarative CLI Version Manager. Unify tool versions in teams, projects, and CI. Easy, painless, and secure.<br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/aqua.md'>note</a>"
+        "description": "CLI Version Manager. <br />ローカルディレクトリ毎に使用するツールのバージョンをコントロールできる。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/aqua.md'>note</a>"
+    },
+    {
+        "name": "hcl",
+        "ring": "adopt",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "HashiCorp configuration language. terraform 等で採用している人も機械も読みやすい設定用の言語。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/languages_frameworks/hcl.md'>note</a>"
     },
     {
         "name": "homebrew",
         "ring": "trial",
         "quadrant": "tools",
         "isNew": "FALSE",
-        "description": "The Missing Package Manager for macOS (or Linux)"
+        "description": "パッケージマネージャ。グローバルに一意なバージョンであればいいツールを手軽にインストール。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/brew.md'>note</a>"
     },
     {
         "name": "terraform",
         "ring": "adopt",
         "quadrant": "tools",
         "isNew": "FALSE",
-        "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure.It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members,treated as code, edited, reviewed, and versioned."
+        "description": "IaCODE Tool. インフラ管理には terraform を使っておけばほぼ問題ない。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/terraform.md'>note</a>"
     }
 ]
