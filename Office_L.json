@@ -1,38 +1,10 @@
 [
     {
-        "name": "OIDC for GitHub Actions",
+        "name": "AWS",
         "ring": "adopt",
-        "quadrant": "techniques",
+        "quadrant": "platforms",
         "isNew": "FALSE",
-        "description": "OIDC"
-    },
-    {
-        "name": "aqua",
-        "ring": "assess",
-        "quadrant": "tools",
-        "isNew": "TRUE",
-        "description": "Declarative CLI Version Manager. Unify tool versions in teams, projects, and CI. Easy, painless, and secure.<br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/aqua.md'>note</a>"
-    },
-    {
-        "name": "terraform",
-        "ring": "adopt",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure.It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members,treated as code, edited, reviewed, and versioned."
-    },
-    {
-        "name": "ansible",
-        "ring": "adopt",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "Ansible is an open source IT automation engine that automates provisioning,configuration management, application deployment, orchestration, and many other IT processes"
-    },
-    {
-        "name": "homebrew",
-        "ring": "trial",
-        "quadrant": "tools",
-        "isNew": "FALSE",
-        "description": "The Missing Package Manager for macOS (or Linux)"
+        "description": "Amazon Web Services"
     },
     {
         "name": "Azure",
@@ -49,17 +21,45 @@
         "description": "Google Cloud Platform"
     },
     {
-        "name": "AWS",
-        "ring": "adopt",
-        "quadrant": "platforms",
-        "isNew": "FALSE",
-        "description": "Amazon Web Services"
-    },
-    {
         "name": "HCL",
         "ring": "adopt",
         "quadrant": "languages & frameworks",
         "isNew": "FALSE",
         "description": "HCL is the HashiCorp configuration language."
+    },
+    {
+        "name": "OIDC for GitHub Actions",
+        "ring": "adopt",
+        "quadrant": "techniques",
+        "isNew": "FALSE",
+        "description": "OIDC"
+    },
+    {
+        "name": "ansible",
+        "ring": "adopt",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Ansible is an open source IT automation engine that automates provisioning,configuration management, application deployment, orchestration, and many other IT processes"
+    },
+    {
+        "name": "aqua",
+        "ring": "assess",
+        "quadrant": "tools",
+        "isNew": "TRUE",
+        "description": "Declarative CLI Version Manager. Unify tool versions in teams, projects, and CI. Easy, painless, and secure.<br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/aqua.md'>note</a>"
+    },
+    {
+        "name": "homebrew",
+        "ring": "trial",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "The Missing Package Manager for macOS (or Linux)"
+    },
+    {
+        "name": "terraform",
+        "ring": "adopt",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure.It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members,treated as code, edited, reviewed, and versioned."
     }
 ]
