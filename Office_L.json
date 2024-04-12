@@ -21,6 +21,13 @@
         "description": "Google のクラウド。 2022 年に GCP(Google Cloud Platform) が Google Cloud に吸収？された。現在は Google Cloud に統一中。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/platforms/google_cloud.md'>note</a>"
     },
     {
+        "name": "Infrastructure as code",
+        "ring": "adopt",
+        "quadrant": "techniques",
+        "isNew": "FALSE",
+        "description": "インフラをコード化。ansible や terraform など。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/techniques/iac.md'>note</a>"
+    },
+    {
         "name": "OIDC for GitHub Actions",
         "ring": "adopt",
         "quadrant": "techniques",
@@ -82,6 +89,13 @@
         "quadrant": "tools",
         "isNew": "FALSE",
         "description": "IaCODE Tool. インフラ管理には terraform を使っておけばほぼ問題ない。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/terraform.md'>note</a>"
+    },
+    {
+        "name": "test first",
+        "ring": "trial",
+        "quadrant": "techniques",
+        "isNew": "FALSE",
+        "description": "先にテストを書いて後からコードを書く教え。バックエンドの頃はそうしていたけどインフラではちょっと難しい。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/techniques/test1st.md'>note</a>"
     },
     {
         "name": "validate",
