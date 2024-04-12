@@ -56,6 +56,13 @@
         "description": "パッケージマネージャ。グローバルに一意なバージョンであればいいツールを手軽にインストール。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/brew.md'>note</a>"
     },
     {
+        "name": "lint",
+        "ring": "adopt",
+        "quadrant": "techniques",
+        "isNew": "FALSE",
+        "description": "各種言語や設定等を lint する教え。validate との違いに難儀する点もあるがツールに任せる。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/techniques/lint.md'>note</a>"
+    },
+    {
         "name": "php",
         "ring": "hold",
         "quadrant": "languages & frameworks",
@@ -75,5 +82,12 @@
         "quadrant": "tools",
         "isNew": "FALSE",
         "description": "IaCODE Tool. インフラ管理には terraform を使っておけばほぼ問題ない。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/terraform.md'>note</a>"
+    },
+    {
+        "name": "validate",
+        "ring": "adopt",
+        "quadrant": "techniques",
+        "isNew": "FALSE",
+        "description": "各種言語や設定等を validate する教え。lint との違いに難儀する点もあるがツールに任せる。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/techniques/validate.md'>note</a>"
     }
 ]
