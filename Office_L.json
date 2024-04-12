@@ -56,6 +56,20 @@
         "description": "パッケージマネージャ。グローバルに一意なバージョンであればいいツールを手軽にインストール。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/brew.md'>note</a>"
     },
     {
+        "name": "php",
+        "ring": "hold",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "LLのひとつ。バックエンドの言語としては一番長く使った。が、最近忘れ気味。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/languages_frameworks/php.md'>note</a>"
+    },
+    {
+        "name": "ruby",
+        "ring": "hold",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "LLのひとつ。Capistrano を書いている時によく使った。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/languages_frameworks/ruby.md'>note</a>"
+    },
+    {
         "name": "terraform",
         "ring": "adopt",
         "quadrant": "tools",
