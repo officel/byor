@@ -63,6 +63,13 @@
         "description": "パッケージマネージャ。グローバルに一意なバージョンであればいいツールを手軽にインストール。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/brew.md'>note</a>"
     },
     {
+        "name": "javascript",
+        "ring": "trial",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "LLのひとつ？ JavaScript のランタイムは今のところ nodejs 一択なんだけど、Deno と Bun の追い上げにも注意。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/languages_frameworks/javascirpt.md'>note</a>"
+    },
+    {
         "name": "lint",
         "ring": "adopt",
         "quadrant": "techniques",
@@ -82,6 +89,13 @@
         "quadrant": "languages & frameworks",
         "isNew": "FALSE",
         "description": "LLのひとつ。バックエンドの言語としては一番長く使った。が、最近忘れ気味。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/languages_frameworks/php.md'>note</a>"
+    },
+    {
+        "name": "python",
+        "ring": "trial",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "LLのひとつ。Linux ではほぼ標準的にシステムワイドで使えたという理由だけで使っていたけど、昨今のバージョンアップで過去資産が使えなくなってきている。Ansible 等の実行環境の再整備や更新追従が必要なの正直めんどう。あと方言多すぎ。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/languages_frameworks/python.md'>note</a>"
     },
     {
         "name": "ruby",
