@@ -70,6 +70,13 @@
         "description": "各種言語や設定等を lint する教え。validate との違いに難儀する点もあるがツールに任せる。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/techniques/lint.md'>note</a>"
     },
     {
+        "name": "make",
+        "ring": "trial",
+        "quadrant": "tools",
+        "isNew": "TRUE",
+        "description": "GNU Make はソースコードから実行ファイルを生成するためのツール、ワークフローの古いやつ。 <br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/make.md'>note</a>"
+    },
+    {
         "name": "php",
         "ring": "hold",
         "quadrant": "languages & frameworks",
@@ -82,6 +89,13 @@
         "quadrant": "languages & frameworks",
         "isNew": "FALSE",
         "description": "LLのひとつ。Capistrano を書いている時によく使った。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/languages_frameworks/ruby.md'>note</a>"
+    },
+    {
+        "name": "runme",
+        "ring": "trial",
+        "quadrant": "tools",
+        "isNew": "TRUE",
+        "description": "markdown ドキュメント中のコードブロックを実行する、jupyter notebook の bash kernel のようなもの。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/runme.md'>note</a>"
     },
     {
         "name": "terraform",
