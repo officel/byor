@@ -14,6 +14,13 @@
         "description": "MicroSoft のクラウド。MS 系サービスとの相性がよい。 <br />see: <a href='https://github.com/officel/byor/blob/main/radar/platforms/azure.md'>note</a>"
     },
     {
+        "name": "Git Hook",
+        "ring": "adopt",
+        "quadrant": "techniques",
+        "isNew": "FALSE",
+        "description": "git hook で処理を追加。具体的には pre-commit を使って lint, validate, その他チェックを行う。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/techniques/githook.md'>note</a>"
+    },
+    {
         "name": "Google Cloud(旧GCP)",
         "ring": "assess",
         "quadrant": "platforms",
@@ -89,6 +96,13 @@
         "quadrant": "languages & frameworks",
         "isNew": "FALSE",
         "description": "LLのひとつ。バックエンドの言語としては一番長く使った。が、最近忘れ気味。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/languages_frameworks/php.md'>note</a>"
+    },
+    {
+        "name": "pre-commit",
+        "ring": "adopt",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "git hook を一元管理するツールの１つ。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/pre-commit.md'>note</a>"
     },
     {
         "name": "python",
