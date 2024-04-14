@@ -13,6 +13,22 @@ directories = [
     "./radar/languages_frameworks",
 ]
 
+# ring の取り得る値
+ring_allowed = [
+    "adopt",
+    "trial",
+    "assess",
+    "hold",
+]
+
+# quadrant の取り得る値
+quadrant_allowed = [
+    "techniques",
+    "tools",
+    "platforms",
+    "languages & frameworks",
+]
+
 
 # ディレクトリ内のすべてのマークダウンファイルを検索
 def find_markdown_files(directories):
@@ -32,7 +48,16 @@ def extract_frontmatter(files):
         with open(file_path, "r", encoding="utf-8") as file:
             post = frontmatter.load(file)
             if "byor" in post.metadata:
-                frontmatter_list.append(post.metadata["byor"])
+                if any((ring in post.metadata["byor"]["ring"]) for ring in ring_allowed):
+                    if any((q in post.metadata["byor"]["quadrant"]) for q in quadrant_allowed):
+                        # チェックOKならしまっておく
+                        frontmatter_list.append(post.metadata["byor"])
+                    else:
+                        print("quadrant error:", file_path, "is", post.metadata["byor"]["quadrant"])
+                        quit()
+                else:
+                    print("ring error:", file_path, "is", post.metadata["byor"]["ring"])
+                    quit()
     return frontmatter_list
 
 
