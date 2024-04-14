@@ -42,6 +42,13 @@
         "description": "GitHub Actions ではセキュリティ強化のために OIDC を使用しろという教え。まったくそのとおり。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/techniques/oidc4github.md'>note</a>"
     },
     {
+        "name": "Provision monitors and alerts by IaC",
+        "ring": "trial",
+        "quadrant": "techniques",
+        "isNew": "FALSE",
+        "description": "監視も IaC で定義しておけという教え。terraform で実現可能な部分は多いが、実際にはドリフトについて要検討。 <br />see: <a href='https://github.com/officel/byor/blob/main/radar/techniques/monitoring.md'>note</a>"
+    },
+    {
         "name": "ansible",
         "ring": "adopt",
         "quadrant": "tools",
@@ -54,6 +61,13 @@
         "quadrant": "tools",
         "isNew": "TRUE",
         "description": "CLI Version Manager. <br />ローカルディレクトリ毎に使用するツールのバージョンをコントロールできる。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/aqua.md'>note</a>"
+    },
+    {
+        "name": "docker",
+        "ring": "trial",
+        "quadrant": "tools",
+        "isNew": "FALSE",
+        "description": "仮想化技術の代名詞で代表格。コンテナと言えばまず最初に挙げる <br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/docker.md'>note</a>"
     },
     {
         "name": "hcl",
