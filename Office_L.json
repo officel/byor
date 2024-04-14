@@ -14,11 +14,25 @@
         "description": "MicroSoft のクラウド。MS 系サービスとの相性がよい。 <br />see: <a href='https://github.com/officel/byor/blob/main/radar/platforms/azure.md'>note</a>"
     },
     {
+        "name": "Flutter",
+        "ring": "assess",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "Google 謹製の UI SDK とされる。表面的にはクロスプラットフォームアプリケーション向け。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/languages_frameworks/flutter.md'>note</a>"
+    },
+    {
         "name": "Git Hook",
         "ring": "adopt",
         "quadrant": "techniques",
         "isNew": "FALSE",
         "description": "git hook で処理を追加。具体的には pre-commit を使って lint, validate, その他チェックを行う。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/techniques/githook.md'>note</a>"
+    },
+    {
+        "name": "Go",
+        "ring": "assess",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "Google 謹製のプログラミング言語。terraform などで使われている。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/languages_frameworks/go.md'>note</a>"
     },
     {
         "name": "Google Cloud(旧GCP)",
@@ -47,6 +61,13 @@
         "quadrant": "techniques",
         "isNew": "FALSE",
         "description": "監視も IaC で定義しておけという教え。terraform で実現可能な部分は多いが、実際にはドリフトについて要検討。 <br />see: <a href='https://github.com/officel/byor/blob/main/radar/techniques/monitoring.md'>note</a>"
+    },
+    {
+        "name": "Rust",
+        "ring": "assess",
+        "quadrant": "languages & frameworks",
+        "isNew": "FALSE",
+        "description": "マルチパラダイムプログラミング言語と認識されている。早い。学習難易度高め。正直ちょっと難しい。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/languages_frameworks/rust.md'>note</a>"
     },
     {
         "name": "ansible",
