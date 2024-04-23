@@ -7,8 +7,7 @@ Build Your Own Radar visualization tool's data
 
 # is
 
-![image](https://github.com/officel/byor/assets/110354/4d5e3e76-61ef-4c7a-b98b-29fdaa5e7915)
-
+[<img src="https://github.com/officel/byor/assets/110354/4d5e3e76-61ef-4c7a-b98b-29fdaa5e7915">](https://radar.thoughtworks.com/?documentId=https%3A%2F%2Fraw.githubusercontent.com%2Fofficel%2Fbyor%2Fmain%2FOffice_L.json)
 
 - [Office_L](https://radar.thoughtworks.com/?documentId=https%3A%2F%2Fraw.githubusercontent.com%2Fofficel%2Fbyor%2Fmain%2FOffice_L.json)
 - My current skills and knowledge on the radar
