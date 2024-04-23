@@ -14,6 +14,13 @@
         "description": "MicroSoft のクラウド。MS 系サービスとの相性がよい。 <br />see: <a href='https://github.com/officel/byor/blob/main/radar/platforms/azure.md'>note</a>"
     },
     {
+        "name": "DataDog",
+        "ring": "adopt",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "Cloud Monitoring as a Service. 監視は全部任せておけばいいけどコスト見合い。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/platforms/datadog.md'>note</a>"
+    },
+    {
         "name": "Flutter",
         "ring": "assess",
         "quadrant": "languages & frameworks",
@@ -54,6 +61,13 @@
         "quadrant": "techniques",
         "isNew": "FALSE",
         "description": "GitHub Actions ではセキュリティ強化のために OIDC を使用しろという教え。まったくそのとおり。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/techniques/oidc4github.md'>note</a>"
+    },
+    {
+        "name": "PagerDuty",
+        "ring": "adopt",
+        "quadrant": "platforms",
+        "isNew": "FALSE",
+        "description": "Incident Management Platform. （今はもう少し進んだところを目指しているらしい）主な機能はインシデント管理の一環であるオンコールマネジメント。対象領域を広げつつある。 <br />see: <a href='https://github.com/officel/byor/blob/main/radar/platforms/pagerduty.md'>note</a>"
     },
     {
         "name": "Provision monitors and alerts by IaC",
