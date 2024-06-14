@@ -2,7 +2,7 @@
 # https://pre-commit.com/
 repos:
   - repo: https://github.com/crate-ci/typos
-    rev: v1.22.2
+    rev: v1.22.7
     hooks:
       - id: typos
   - repo: https://github.com/PyCQA/isort
