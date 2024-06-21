@@ -1,9 +1,9 @@
 ---
 byor:
     "name": "make"
-    "ring": "trial"
+    "ring": "hold"
     "quadrant": "tools"
-    "isNew": "TRUE"
+    "isNew": "FALSE"
     "description": "\
     GNU Make はソースコードから実行ファイルを生成するためのツール、ワークフローの古いやつ。
     <br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/make.md'>note</a>\
@@ -16,6 +16,10 @@ byor:
 - 方言がいろいろあるけど GNU 版を使っておけばひとまず安心（`man make`）
 
 ## history
+
+### 2024-06
+
+- Task に移行中
 
 ### 2024-04
 
