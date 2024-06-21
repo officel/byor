@@ -2,7 +2,8 @@ name: pre-commit
 
 on:
   schedule:
-    - cron: '0 15 * * FRI'
+    - cron: '0 15 10 * *'
+      # 更新頻度の低いリポジトリなので自動アップデートを月一にする
   workflow_dispatch:
   pull_request:
 
