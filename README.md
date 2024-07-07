@@ -19,3 +19,16 @@ Build Your Own Radar visualization tool's data
   - Hold: Items that used to be used but are used less frequently these days or are almost forgotten
 
 - In other words, those in the center of the circle are used more frequently and those on the outside are used less frequently
+
+# history
+
+- [2024 Q2](https://radar.thoughtworks.com/?documentId=https%3A%2F%2Fraw.githubusercontent.com%2Fofficel%2Fbyor%2F2024q2%2FOffice_L.json)
+
+# how
+
+- 2024-07 から Q 毎に整理することにした（#60）
+- 各 Q の始めにブランチを作成
+- isNew フラグの FALSE 化（次回以降忘れないように #56）
+- 削除対象のツールを決定（#57）
+- 追加のツールを決定
+- 各 Q の終わりに整理してリリース
