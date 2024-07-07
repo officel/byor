@@ -3,7 +3,7 @@ byor:
     "name": "Task"
     "ring": "adopt"
     "quadrant": "tools"
-    "isNew": "TRUE"
+    "isNew": "FALSE"
     "description": "\
     Task (taskfile.dev) は GNU Make 代替のビルドツール。Make から順次移行中。
     <br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/taskfiledev.md'>note</a>\
