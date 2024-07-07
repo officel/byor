@@ -3,7 +3,7 @@ byor:
     "name": "aqua"
     "ring": "assess"
     "quadrant": "tools"
-    "isNew": "TRUE"
+    "isNew": "FALSE"
     "description": "\
     CLI Version Manager. <br />\
     ローカルディレクトリ毎に使用するツールのバージョンをコントロールできる。\
