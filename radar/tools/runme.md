@@ -3,7 +3,7 @@ byor:
     "name": "runme"
     "ring": "trial"
     "quadrant": "tools"
-    "isNew": "TRUE"
+    "isNew": "FALSE"
     "description": "\
     markdown ドキュメント中のコードブロックを実行する、jupyter notebook の bash kernel のようなもの。\
     <br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/runme.md'>note</a>\

@@ -3,7 +3,7 @@ byor:
     "name": "kind"
     "ring": "adopt"
     "quadrant": "platforms"
-    "isNew": "TRUE"
+    "isNew": "FALSE"
     "description": "\
     Kubernetes in Docker. k8s をローカルの docker 上でマルチノードで動作させるツール。\
     <br />see: <a href='https://github.com/officel/byor/blob/main/radar/platforms/kind.md'>note</a>\
