@@ -5,6 +5,7 @@ repos:
     rev: v1.23.1
     hooks:
       - id: typos
+        args: [--config=.config/.typos.toml]
   - repo: https://github.com/PyCQA/isort
     rev: 5.13.2
     hooks:
@@ -17,6 +18,7 @@ repos:
     rev: 7.1.0
     hooks:
       - id: flake8
+        args: [--config=.config/.flake8]
   - repo: https://github.com/pre-commit/pre-commit-hooks.git
     rev: v4.6.0
     hooks:
@@ -36,12 +38,13 @@ repos:
             path/to/file.py
           )$
         args:
-          - --config=.pymarkdown.json
+          - --config=.config/.pymarkdown.json
           - scan
   - repo: https://github.com/adrienverge/yamllint.git
     rev: v1.35.1
     hooks:
       - id: yamllint
+        args: [-c=.config/.yamllint]
   - repo: https://github.com/compilerla/conventional-pre-commit
     rev: v3.2.0
     hooks:
