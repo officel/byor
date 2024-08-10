@@ -2,7 +2,7 @@
 # https://pre-commit.com/
 repos:
   - repo: https://github.com/crate-ci/typos
-    rev: v1.23.1
+    rev: v1.23.6
     hooks:
       - id: typos
         args: [--config=.config/.typos.toml]
@@ -11,11 +11,11 @@ repos:
     hooks:
       - id: isort
   - repo: https://github.com/psf/black
-    rev: 24.4.2
+    rev: 24.8.0
     hooks:
       - id: black
   - repo: https://github.com/PyCQA/flake8
-    rev: 7.1.0
+    rev: 7.1.1
     hooks:
       - id: flake8
         args: [--config=.config/.flake8]
@@ -29,7 +29,7 @@ repos:
     hooks:
       - id: actionlint
   - repo: https://github.com/jackdewinter/pymarkdown
-    rev: v0.9.21
+    rev: v0.9.22
     hooks:
       - id: pymarkdown
         exclude: |
@@ -46,7 +46,7 @@ repos:
       - id: yamllint
         args: [-c=.config/.yamllint]
   - repo: https://github.com/compilerla/conventional-pre-commit
-    rev: v3.2.0
+    rev: v3.4.0
     hooks:
       - id: conventional-pre-commit
         stages: [commit-msg]
