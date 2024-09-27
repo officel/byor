@@ -23,4 +23,5 @@ exclude =
   docs/source/conf.py,
   old,
   build,
-  dist
+  dist,
+  backup
