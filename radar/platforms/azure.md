@@ -1,7 +1,7 @@
 ---
 byor:
     "name": "Azure"
-    "ring": "assess"
+    "ring": "trial"
     "quadrant": "platforms"
     "isNew": "FALSE"
     "description": "\
@@ -15,6 +15,11 @@ byor:
 - [Microsoft Azure](https://azure.microsoft.com/ja-jp)
 
 ## history
+
+### 2024-09
+
+- メインラインを Azure に移行中
+- リソースグループが便利。ちゃんと一度に削除できるブロッキングにするのが肝要
 
 ### 2024-03
 
