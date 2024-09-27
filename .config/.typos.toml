@@ -2,7 +2,14 @@
 chage = "chage"
 HashiCorp = "HashiCorp"
 Braket = "Braket"
+FPT = "FPT"  # oisix's outsourcing
 
 [default.extend-words]
+# aws/panel.html include maybe Business Application
+ba = "ba"
 # shell set -ue
 ue = "ue"
+# typos v1.16.11 でバグるらしく、長い文字列中のこれを変換してしまうのでとりあえず避ける
+ihs = "ihs"
+# AKS not ask
+AKS = "AKS"
