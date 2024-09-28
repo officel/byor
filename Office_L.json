@@ -8,7 +8,7 @@
     },
     {
         "name": "Azure",
-        "ring": "assess",
+        "ring": "trial",
         "quadrant": "platforms",
         "isNew": "FALSE",
         "description": "MicroSoft のクラウド。MS 系サービスとの相性がよい。 <br />see: <a href='https://github.com/officel/byor/blob/main/radar/platforms/azure.md'>note</a>"
@@ -56,6 +56,13 @@
         "description": "インフラをコード化。ansible や terraform など。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/techniques/iac.md'>note</a>"
     },
     {
+        "name": "New Relic",
+        "ring": "trial",
+        "quadrant": "platforms",
+        "isNew": "TRUE",
+        "description": "Monitoring Service. オブザーバビリティを重要視。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/platforms/newrelic.md'>note</a>"
+    },
+    {
         "name": "OIDC for GitHub Actions",
         "ring": "adopt",
         "quadrant": "techniques",
@@ -87,7 +94,7 @@
         "name": "Task",
         "ring": "adopt",
         "quadrant": "tools",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "Task (taskfile.dev) は GNU Make 代替のビルドツール。Make から順次移行中。 <br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/taskfiledev.md'>note</a>"
     },
     {
@@ -101,7 +108,7 @@
         "name": "aqua",
         "ring": "assess",
         "quadrant": "tools",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "CLI Version Manager. <br />ローカルディレクトリ毎に使用するツールのバージョンをコントロールできる。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/aqua.md'>note</a>"
     },
     {
@@ -136,7 +143,7 @@
         "name": "kind",
         "ring": "adopt",
         "quadrant": "platforms",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "Kubernetes in Docker. k8s をローカルの docker 上でマルチノードで動作させるツール。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/platforms/kind.md'>note</a>"
     },
     {
@@ -185,7 +192,7 @@
         "name": "runme",
         "ring": "trial",
         "quadrant": "tools",
-        "isNew": "TRUE",
+        "isNew": "FALSE",
         "description": "markdown ドキュメント中のコードブロックを実行する、jupyter notebook の bash kernel のようなもの。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/tools/runme.md'>note</a>"
     },
     {
