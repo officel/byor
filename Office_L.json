@@ -8,7 +8,7 @@
     },
     {
         "name": "Azure",
-        "ring": "assess",
+        "ring": "trial",
         "quadrant": "platforms",
         "isNew": "FALSE",
         "description": "MicroSoft のクラウド。MS 系サービスとの相性がよい。 <br />see: <a href='https://github.com/officel/byor/blob/main/radar/platforms/azure.md'>note</a>"
@@ -54,6 +54,13 @@
         "quadrant": "techniques",
         "isNew": "FALSE",
         "description": "インフラをコード化。ansible や terraform など。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/techniques/iac.md'>note</a>"
+    },
+    {
+        "name": "New Relic",
+        "ring": "trial",
+        "quadrant": "platforms",
+        "isNew": "TRUE",
+        "description": "Monitoring Service. オブザーバビリティを重要視。<br />see: <a href='https://github.com/officel/byor/blob/main/radar/platforms/newrelic.md'>note</a>"
     },
     {
         "name": "OIDC for GitHub Actions",
