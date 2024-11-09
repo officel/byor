@@ -48,12 +48,22 @@ def extract_frontmatter(files):
         with open(file_path, "r", encoding="utf-8") as file:
             post = frontmatter.load(file)
             if "byor" in post.metadata:
-                if any((ring in post.metadata["byor"]["ring"]) for ring in ring_allowed):
-                    if any((q in post.metadata["byor"]["quadrant"]) for q in quadrant_allowed):
+                if any(
+                    (ring in post.metadata["byor"]["ring"]) for ring in ring_allowed
+                ):
+                    if any(
+                        (q in post.metadata["byor"]["quadrant"])
+                        for q in quadrant_allowed
+                    ):
                         # チェックOKならしまっておく
                         frontmatter_list.append(post.metadata["byor"])
                     else:
-                        print("quadrant error:", file_path, "is", post.metadata["byor"]["quadrant"])
+                        print(
+                            "quadrant error:",
+                            file_path,
+                            "is",
+                            post.metadata["byor"]["quadrant"],
+                        )
                         quit()
                 else:
                     print("ring error:", file_path, "is", post.metadata["byor"]["ring"])

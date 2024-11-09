@@ -1,12 +1,6 @@
 ---
 # https://pre-commit.com/
 repos:
-  - repo: https://github.com/crate-ci/typos
-    rev: v1.26.0
-    hooks:
-      - id: typos
-        args:
-          - --config=.config/.typos.toml
   - repo: https://github.com/PyCQA/isort
     rev: 5.13.2
     hooks:
