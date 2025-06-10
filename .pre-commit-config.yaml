@@ -2,7 +2,7 @@
 # https://pre-commit.com/
 repos:
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.11.9
+    rev: v0.11.13
     hooks:
       - id: ruff
         args:
@@ -34,7 +34,7 @@ repos:
       - id: actionlint
 
   - repo: https://github.com/jackdewinter/pymarkdown
-    rev: v0.9.29
+    rev: v0.9.30
     hooks:
       - id: pymarkdown
         args:
